@@ -1,0 +1,17 @@
+{
+  "name": "restify-todo",
+  "version": "0.0.1",
+  "description": "a server/client application using Javascript and Restify",
+  "main": "server/TodoServer",
+  "author": "Jordan QUAGLIATINI <jordan.quagliatini@orange.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "restify": "^4.3.0",
+    "todomvc-app-css": "^2.1.0"
+  },
+  "scripts": {
+    "serve": "node server/TodoServer",
+    "client": "cd client; python -m SimpleHTTPServer"
+  }
+}
